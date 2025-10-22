@@ -1,174 +1,238 @@
 import SwiftUI
-import AppKit
 
 struct MainWindowView: View {
-    @EnvironmentObject private var theme: ThemeManager
-    @EnvironmentObject private var projectState: ProjectState
-    @State private var isShowingSettings = false
-    @State private var isShowingProjectPicker = false
+    @StateObject var theme = AppTheme()
 
-    private enum Layout {
-        static let sidebarWidth: CGFloat = 240
-        static let inspectorWidth: CGFloat = 320
-        static let paneCornerRadius: CGFloat = 12
-        static let panePadding: CGFloat = 16
-    }
+    private let sampleFiles = [
+        "AppDelegate.swift",
+        "ContentView.swift",
+        "Theme/AppTheme.swift",
+        "Services/GitManager.swift",
+        "Utilities/SessionManager.swift"
+    ]
 
-    private var backgroundColor: Color {
-        theme.currentColorScheme == .dark
-            ? Color(red: 18 / 255, green: 20 / 255, blue: 26 / 255)
-            : Color(red: 236 / 255, green: 238 / 255, blue: 242 / 255)
-    }
+    private let sampleCode = """
+    class NovaForgeIDE {
+        constructor(private projectPath: string, private assistant: AssistantClient) {}
 
-    private var paneBackgroundColor: Color {
-        theme.currentColorScheme == .dark
-            ? Color(red: 32 / 255, green: 35 / 255, blue: 43 / 255)
-            : Color(red: 252 / 255, green: 253 / 255, blue: 255 / 255)
-    }
-
-    private var dividerColor: Color {
-        theme.currentColorScheme == .dark
-            ? Color(red: 58 / 255, green: 62 / 255, blue: 73 / 255)
-            : Color(red: 203 / 255, green: 208 / 255, blue: 220 / 255)
-    }
-
-    private var titleColor: Color {
-        theme.currentColorScheme == .dark
-            ? Color(red: 182 / 255, green: 189 / 255, blue: 204 / 255)
-            : Color(red: 53 / 255, green: 60 / 255, blue: 75 / 255)
-    }
-
-    private var subtitleColor: Color {
-        theme.currentColorScheme == .dark
-            ? Color(red: 123 / 255, green: 132 / 255, blue: 149 / 255)
-            : Color(red: 105 / 255, green: 115 / 255, blue: 134 / 255)
-    }
-
-    private var specSidebarSubtitle: String {
-        if projectState.specSections.isEmpty {
-            return "No spec loaded"
+        async boot(): Promise<void> {
+            await this.loadWorkspace();
+            this.registerShortcuts();
         }
 
-        return projectState.activeSpecSection ?? "Choose a spec section"
+        private async loadWorkspace(): Promise<void> {
+            const files = await FileSystem.discover(this.projectPath, { extensions: [".ts", ".swift"] });
+            WorkspaceState.sync(files);
+        }
+
+        private registerShortcuts(): void {
+            ShortcutManager.bind("ctrl+shift+f", () => this.assistant.searchInContext());
+            ShortcutManager.bind("ctrl+enter", () => this.assistant.applySuggestion());
+        }
     }
+
+    export const ide = new NovaForgeIDE("/Users/dev/Projects/Nova", new AssistantClient());
+    """
+
+    private let sampleAIResponse = """
+    NovaForge IDE detected a SwiftUI layout update.
+    - Consider extracting shared pane metrics into a layout config type.
+    - Add syntax highlighting by pairing the editor pane with a tokenized renderer.
+    - Persist AI assistant transcripts so users can revisit prior suggestions.
+    """
 
     var body: some View {
-        HStack(spacing: 0) {
-            sidebar(title: "File Navigator", subtitle: projectState.selectedFile ?? "No file selected")
-                .frame(width: Layout.sidebarWidth)
+        ZStack {
+            theme.windowBackground
+                .ignoresSafeArea()
 
-            divider
+            RadialGradient(
+                gradient: Gradient(colors: [
+                    theme.accentColor.opacity(0.35),
+                    Color.clear
+                ]),
+                center: .topTrailing,
+                startRadius: 80,
+                endRadius: 520
+            )
+            .blur(radius: 90)
+            .ignoresSafeArea()
 
-            contentPane(title: "Code Editor",
-                        subtitle: projectState.selectedFile.map { "Editing \($0)" }
-                            ?? "Open a file to start editing")
+            RadialGradient(
+                gradient: Gradient(colors: [
+                    Color(red: 94 / 255, green: 51 / 255, blue: 150 / 255).opacity(0.28),
+                    Color.clear
+                ]),
+                center: .bottomLeading,
+                startRadius: 60,
+                endRadius: 520
+            )
+            .blur(radius: 110)
+            .ignoresSafeArea()
 
-            divider
+            HStack(spacing: 0) {
+                fileListPane
+                    .frame(width: 200)
+                    .frame(maxHeight: .infinity)
 
-            sidebar(title: "Spec Sheet",
-                    subtitle: specSidebarSubtitle)
-                .frame(width: Layout.inspectorWidth)
+                verticalDivider
+
+                editorPane
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+
+                verticalDivider
+
+                assistantPane
+                    .frame(width: 300)
+                    .frame(maxHeight: .infinity)
+            }
+            .padding(.horizontal, 24)
+            .padding(.vertical, 24)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .frame(minWidth: 900, minHeight: 500)
+    }
+
+    private var fileListPane: some View {
+        paneContainer {
+            VStack(alignment: .leading, spacing: 16) {
+                Text("Files")
+                    .font(theme.sectionTitleFont)
+                    .foregroundColor(theme.accentColor)
+
+                theme.divider
+                    .opacity(0.35)
+
+                ForEach(sampleFiles, id: \.self) { file in
+                    Text(file)
+                        .font(theme.bodyFont)
+                        .foregroundColor(theme.textColor.opacity(0.9))
+                        .padding(.vertical, 4)
+                        .padding(.horizontal, 8)
+                        .background(
+                            RoundedRectangle(cornerRadius: 6, style: .continuous)
+                                .fill(theme.dividerColor.opacity(0.25))
+                                .blur(radius: 0.5)
+                        )
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 6, style: .continuous)
+                                .stroke(theme.dividerColor.opacity(0.35), lineWidth: 0.5)
+                        )
+                }
+
+                Spacer()
+            }
+        }
+    }
+
+    private var editorPane: some View {
+        paneContainer(padding: 0) {
+            VStack(alignment: .leading, spacing: 0) {
+                Text("Code Editor")
+                    .font(theme.sectionTitleFont)
+                    .foregroundColor(theme.accentColor)
+                    .padding(.top, 28)
+                    .padding(.horizontal, 32)
+                    .padding(.bottom, 18)
+
+                theme.divider
+                    .opacity(0.5)
+                    .padding(.horizontal, 28)
+
+                ScrollView {
+                    Text(sampleCode)
+                        .font(theme.codeFont)
+                        .foregroundColor(theme.textColor)
+                        .frame(maxWidth: .infinity, alignment: .topLeading)
+                        .textSelection(.enabled)
+                        .padding(28)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                .fill(theme.editorBackground)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                        .stroke(theme.dividerColor.opacity(0.4), lineWidth: 1)
+                                )
+                                .shadow(color: theme.accentColor.opacity(0.18), radius: 14, x: 0, y: 12)
+                        )
+                        .padding(.horizontal, 28)
+                        .padding(.top, 20)
+                }
+                .padding(.bottom, 32)
+            }
+        }
+    }
+
+    private var assistantPane: some View {
+        paneContainer {
+            VStack(alignment: .leading, spacing: 18) {
+                Text("AI Assistant")
+                    .font(theme.sectionTitleFont)
+                    .foregroundColor(theme.accentColor)
+
+                theme.divider
+                    .opacity(0.35)
+
+                Text("Recent Output")
+                    .font(theme.bodyFont)
+                    .fontWeight(.semibold)
+                    .foregroundColor(theme.textColor.opacity(0.8))
+
+                Text(sampleAIResponse)
+                    .font(theme.bodyFont)
+                    .foregroundColor(theme.textColor.opacity(0.85))
+
+                Spacer()
+            }
+        }
+    }
+
+    private var verticalDivider: some View {
+        theme.divider
+            .rotationEffect(.degrees(90))
+            .frame(width: 1)
+            .frame(maxHeight: .infinity)
+            .opacity(0.45)
+            .blur(radius: 0.6)
+            .shadow(color: theme.accentColor.opacity(0.2), radius: 14)
+    }
+
+    @ViewBuilder
+    private func paneContainer<Content: View>(
+        padding: CGFloat = 24,
+        alignment: Alignment = .topLeading,
+        @ViewBuilder content: () -> Content
+    ) -> some View {
+        ZStack(alignment: alignment) {
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(Color(red: 18 / 255, green: 10 / 255, blue: 34 / 255).opacity(0.55))
+                .blur(radius: 26)
+
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .fill(theme.panelBackground)
+                .overlay(
+                    LinearGradient(
+                        gradient: Gradient(colors: [
+                            theme.accentColor.opacity(0.32),
+                            Color(red: 123 / 255, green: 73 / 255, blue: 167 / 255).opacity(0.18),
+                            Color.clear
+                        ]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                    .blur(radius: 32)
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        .stroke(theme.dividerColor.opacity(0.65), lineWidth: 1)
+                )
+
+            content()
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: alignment)
+                .padding(padding)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(backgroundColor.ignoresSafeArea())
-        .environment(\.colorScheme, theme.currentColorScheme)
-        .toolbar(content: {
-            ToolbarItemGroup(placement: .primaryAction) {
-                Button(action: { isShowingProjectPicker = true }) {
-                    Image(systemName: "folder.badge.plus")
-                        .symbolRenderingMode(.hierarchical)
-                }
-                .help("Open Project Folder")
-
-                Button(action: { isShowingSettings.toggle() }) {
-                    Image(systemName: "gearshape.fill")
-                        .symbolRenderingMode(.hierarchical)
-                }
-                .help("Open Settings")
-            }
-        })
-        .sheet(isPresented: $isShowingSettings) {
-            SettingsPanelView(theme: theme)
-        }
-        .sheet(isPresented: $isShowingProjectPicker) {
-            ProjectPickerView()
-                .environmentObject(projectState)
-        }
-        .onAppear {
-            if let window = NSApplication.shared.windows.first {
-                WindowStateManager.restore(for: window)
-            }
-
-            if projectState.openFilePaths.isEmpty {
-                isShowingProjectPicker = true
-            }
-        }
-        .onChange(of: projectState.openFilePaths) { newValue in
-            if newValue.isEmpty {
-                isShowingProjectPicker = true
-            } else {
-                isShowingProjectPicker = false
-            }
-        }
-        .onDisappear {
-            if let window = NSApplication.shared.windows.first {
-                WindowStateManager.save(window: window)
-            }
-        }
-    }
-
-    private var divider: some View {
-        Rectangle()
-            .fill(dividerColor)
-            .frame(width: 1)
-    }
-
-    private func sidebar(title: String, subtitle: String) -> some View {
-        placeholderPane(title: title, subtitle: subtitle)
-    }
-
-    private func contentPane(title: String, subtitle: String) -> some View {
-        placeholderPane(title: title, subtitle: subtitle)
-            .frame(maxWidth: .infinity)
-    }
-
-    private func placeholderPane(title: String, subtitle: String) -> some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text(title)
-                .font(.system(size: theme.typography.fontSize + 2,
-                              weight: .semibold,
-                              design: theme.typography.useMonospace ? .monospaced : .default))
-                .foregroundStyle(theme.primaryAccentColor)
-
-            Text(subtitle)
-                .font(.system(size: theme.typography.fontSize,
-                              weight: .regular,
-                              design: theme.typography.useMonospace ? .monospaced : .default))
-                .foregroundStyle(subtitleColor)
-
-            Spacer()
-        }
-        .padding(Layout.panePadding)
-        .frame(maxHeight: .infinity, alignment: .topLeading)
-        .background(
-            RoundedRectangle(cornerRadius: Layout.paneCornerRadius, style: .continuous)
-                .fill(paneBackgroundColor)
-        )
-        .padding(.vertical, Layout.panePadding)
+        .shadow(color: theme.accentColor.opacity(0.24), radius: 20, x: 0, y: 16)
     }
 }
-
-/*
-#Preview {
-    MainWindowView()
-        .frame(width: 1200, height: 700)
-        .environmentObject(ThemeManager())
-        .environmentObject(
-            ProjectState(
-                openFilePaths: ["App.swift", "ThemeManager.swift"],
-                selectedFile: "App.swift",
-                activeSpecSection: "Overview"
-            )
-        )
-}
-*/
