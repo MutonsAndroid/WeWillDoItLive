@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "WeWillDoItLive-arm64-apple-macosx26.0-debug.exe": ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe>"]
+  "WeWillDoItLive-arm64-apple-macosx26.0-debug.module": ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.module>"]
+  "main": ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe>","<WeWillDoItLive-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe>","<WeWillDoItLive-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/DutDev/WeWillDoItLive/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive":
+    is-mutated: true
+commands:
+  "/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive-entitlement.plist"]
+    description: "Write auxiliary file /Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive-entitlement.plist"
+
+  "/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/DutDev/WeWillDoItLive/CodeEditorView.swift","/Users/DutDev/WeWillDoItLive/FileLoader.swift","/Users/DutDev/WeWillDoItLive/FileTreeView.swift","/Users/DutDev/WeWillDoItLive/GitManager.swift","/Users/DutDev/WeWillDoItLive/MainWindowView.swift","/Users/DutDev/WeWillDoItLive/ProjectPickerView.swift","/Users/DutDev/WeWillDoItLive/ProjectState.swift","/Users/DutDev/WeWillDoItLive/RecentProjectsManager.swift","/Users/DutDev/WeWillDoItLive/SessionManager.swift","/Users/DutDev/WeWillDoItLive/SettingsPanelView.swift","/Users/DutDev/WeWillDoItLive/SpecLoader.swift","/Users/DutDev/WeWillDoItLive/SpecViewerView.swift","/Users/DutDev/WeWillDoItLive/ThemeManager.swift","/Users/DutDev/WeWillDoItLive/WindowStateManager.swift","/Users/DutDev/WeWillDoItLive/main.swift"]
+    outputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources"]
+    description: "Write auxiliary file /Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources"
+
+  "/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileTreeView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/GitManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/MainWindowView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectPickerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectState.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/RecentProjectsManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SessionManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecViewerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ThemeManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/WindowStateManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/main.swift.o"]
+    outputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.product/Objects.LinkFileList"
+
+  "/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe>":
+    tool: phony
+    inputs: ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe-CodeSigning>"]
+    outputs: ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe>"]
+
+  "<WeWillDoItLive-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileTreeView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/GitManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/MainWindowView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectPickerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectState.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/RecentProjectsManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SessionManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecViewerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ThemeManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/WindowStateManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/main.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/WeWillDoItLive.swiftmodule"]
+    outputs: ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.WeWillDoItLive-arm64-apple-macosx26.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileTreeView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/GitManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/MainWindowView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectPickerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectState.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/RecentProjectsManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SessionManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecViewerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ThemeManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/WindowStateManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/main.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.product/Objects.LinkFileList"]
+    outputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/WeWillDoItLive"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug","-o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive","-module-name","WeWillDoItLive","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_WeWillDoItLive_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/WeWillDoItLive.swiftmodule","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g"]
+
+  "C.WeWillDoItLive-arm64-apple-macosx26.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive-entitlement.plist"]
+    outputs: ["<WeWillDoItLive-arm64-apple-macosx26.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/WeWillDoItLive"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive-entitlement.plist","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive"]
+
+  "C.WeWillDoItLive-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/DutDev/WeWillDoItLive/CodeEditorView.swift","/Users/DutDev/WeWillDoItLive/FileLoader.swift","/Users/DutDev/WeWillDoItLive/FileTreeView.swift","/Users/DutDev/WeWillDoItLive/GitManager.swift","/Users/DutDev/WeWillDoItLive/MainWindowView.swift","/Users/DutDev/WeWillDoItLive/ProjectPickerView.swift","/Users/DutDev/WeWillDoItLive/ProjectState.swift","/Users/DutDev/WeWillDoItLive/RecentProjectsManager.swift","/Users/DutDev/WeWillDoItLive/SessionManager.swift","/Users/DutDev/WeWillDoItLive/SettingsPanelView.swift","/Users/DutDev/WeWillDoItLive/SpecLoader.swift","/Users/DutDev/WeWillDoItLive/SpecViewerView.swift","/Users/DutDev/WeWillDoItLive/ThemeManager.swift","/Users/DutDev/WeWillDoItLive/WindowStateManager.swift","/Users/DutDev/WeWillDoItLive/main.swift","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources"]
+    outputs: ["/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileTreeView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/GitManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/MainWindowView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectPickerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectState.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/RecentProjectsManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SessionManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecLoader.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecViewerView.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ThemeManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/WindowStateManager.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/main.swift.o","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/WeWillDoItLive.swiftmodule"]
+    description: "Compiling Swift Module 'WeWillDoItLive' (15 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","WeWillDoItLive","-emit-dependencies","-emit-module","-emit-module-path","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/WeWillDoItLive.swiftmodule","-output-file-map","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/output-file-map.json","-incremental","-c","@/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources","-I","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/DutDev/WeWillDoItLive/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","WeWillDoItLive_main","-swift-version","5","-DENABLE_PREVIEWS","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","wewilldoitlive"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/DutDev/WeWillDoItLive/","/Users/DutDev/WeWillDoItLive/Package.swift","/Users/DutDev/WeWillDoItLive/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
