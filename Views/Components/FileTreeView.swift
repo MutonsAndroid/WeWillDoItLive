@@ -43,26 +43,31 @@ struct FileTreeView: View {
         .padding(16)
         .background(
             RoundedRectangle(cornerRadius: 18, style: .continuous)
-                .fill(AppTheme.card)
+                .fill(AppTheme.panel)
         )
+        .overlay(
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .stroke(AppTheme.border.opacity(0.4), lineWidth: 1)
+        )
+        .foregroundColor(AppTheme.textPrimary)
     }
 
     private var header: some View {
         HStack(spacing: 8) {
             HStack(spacing: 8) {
                 Image(systemName: "magnifyingglass")
-                    .foregroundStyle(Color.white.opacity(0.42))
+                    .foregroundStyle(AppTheme.textSecondary.opacity(0.7))
 
                 TextField("Search files", text: $searchText)
                     .textFieldStyle(.plain)
-                    .foregroundColor(.white)
+                    .foregroundColor(AppTheme.textPrimary)
                     .disableAutocorrection(true)
             }
             .padding(.vertical, 8)
             .padding(.horizontal, 12)
             .background(
                 RoundedRectangle(cornerRadius: 12, style: .continuous)
-                    .fill(Color.white.opacity(0.06))
+                    .fill(AppTheme.background.opacity(0.6))
             )
 
             Button {
@@ -70,11 +75,15 @@ struct FileTreeView: View {
             } label: {
                 Image(systemName: "folder.badge.gear")
                     .imageScale(.medium)
-                    .foregroundColor(.white.opacity(0.82))
+                    .foregroundColor(AppTheme.accentCoolBlue)
                     .padding(9)
                     .background(
                         RoundedRectangle(cornerRadius: 12, style: .continuous)
-                            .fill(Color.white.opacity(0.08))
+                            .fill(AppTheme.background.opacity(0.7))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
+                            )
                     )
             }
             .buttonStyle(.plain)
@@ -95,12 +104,12 @@ struct FileTreeView: View {
     private var placeholder: some View {
         VStack(spacing: 12) {
             Image(systemName: "folder")
-                .foregroundColor(.white.opacity(0.4))
+                .foregroundColor(AppTheme.textSecondary.opacity(0.5))
                 .imageScale(.large)
 
             Text("Select a project to begin")
                 .font(.system(size: 13, weight: .medium, design: .rounded))
-                .foregroundColor(.white.opacity(0.6))
+                .foregroundColor(AppTheme.textSecondary)
         }
         .frame(maxWidth: .infinity, minHeight: 120)
         .padding(.top, 24)
@@ -109,12 +118,12 @@ struct FileTreeView: View {
     private var noResults: some View {
         VStack(spacing: 10) {
             Image(systemName: "magnifyingglass")
-                .foregroundColor(.white.opacity(0.4))
+                .foregroundColor(AppTheme.textSecondary.opacity(0.5))
                 .imageScale(.medium)
 
             Text("No matches found")
                 .font(.system(size: 13, weight: .medium, design: .rounded))
-                .foregroundColor(.white.opacity(0.65))
+                .foregroundColor(AppTheme.textSecondary)
         }
         .frame(maxWidth: .infinity, minHeight: 120)
         .padding(.top, 24)
@@ -165,17 +174,17 @@ private struct FileTreeNodeView: View {
                 HStack(spacing: 10) {
                     if node.isDirectory {
                         Image(systemName: node.isExpanded ? "chevron.down" : "chevron.right")
-                            .foregroundColor(.white.opacity(0.45))
+                            .foregroundColor(AppTheme.textSecondary.opacity(0.8))
                     } else {
                         Image(systemName: "chevron.right")
                             .opacity(0)
                     }
 
                     Image(systemName: node.isDirectory ? "folder" : "doc.text")
-                        .foregroundColor(node.isDirectory ? Color.white.opacity(0.75) : Color.white.opacity(0.55))
+                        .foregroundColor(node.isDirectory ? AppTheme.accentCoolBlue.opacity(0.7) : AppTheme.textSecondary.opacity(0.8))
 
                     Text(node.name)
-                        .foregroundColor(.white)
+                        .foregroundColor(AppTheme.textPrimary)
                         .font(.system(size: 13, weight: .medium, design: .rounded))
                         .lineLimit(1)
                         .truncationMode(.tail)
@@ -186,7 +195,18 @@ private struct FileTreeNodeView: View {
                 .padding(.horizontal, 12)
                 .background(
                     Capsule(style: .continuous)
-                        .fill(isSelected ? Color.white.opacity(0.18) : Color.clear)
+                        .fill(
+                            isSelected
+                                ? AppTheme.accentPrimary.opacity(0.18)
+                                : Color.clear
+                        )
+                        .overlay(
+                            Capsule(style: .continuous)
+                                .stroke(
+                                    isSelected ? AppTheme.accentPrimary.opacity(0.55) : AppTheme.panel,
+                                    lineWidth: isSelected ? 1 : 0
+                                )
+                        )
                 )
             }
             .padding(.leading, CGFloat(level) * 16)

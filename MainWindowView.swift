@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct MainWindowView: View {
-    @StateObject var theme = AppTheme()
     @State private var projectRoot: FileNode? = {
         let path = "/Users/DutDev/Code/WeWillDoItLive"
         let url = URL(fileURLWithPath: path)
@@ -28,7 +27,7 @@ struct MainWindowView: View {
 
             verticalDivider
 
-            SpecDeckView(theme: theme)
+            SpecDeckView()
                 .padding(8)
                 .frame(width: 360)
                 .frame(maxHeight: .infinity, alignment: .top)
@@ -36,17 +35,15 @@ struct MainWindowView: View {
         .padding(.horizontal, 24)
         .padding(.vertical, 24)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .foregroundColor(AppTheme.textPrimary)
         .background(AppTheme.background.ignoresSafeArea())
         .frame(minWidth: 900, minHeight: 500)
     }
 
     private var verticalDivider: some View {
-        theme.divider
-            .rotationEffect(.degrees(90))
+        Rectangle()
+            .fill(AppTheme.border.opacity(0.6))
             .frame(width: 1)
             .frame(maxHeight: .infinity)
-            .opacity(0.45)
-            .blur(radius: 0.6)
-            .shadow(color: theme.accentColor.opacity(0.2), radius: 14)
     }
 }

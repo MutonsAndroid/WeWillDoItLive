@@ -52,12 +52,20 @@ struct ChatView: View {
         VStack(alignment: message.sender == .assistant ? .leading : .trailing, spacing: 10) {
             Text(message.text)
                 .font(.system(size: 16, weight: .regular, design: .rounded))
-                .foregroundColor(message.sender == .assistant ? .white : Color(hex: "#1b1b1b"))
+                .foregroundColor(message.sender == .assistant ? AppTheme.textPrimary : AppTheme.background)
                 .padding(.vertical, 16)
                 .padding(.horizontal, 18)
                 .background(
                     bubbleShape(for: message.sender)
-                        .fill(message.sender == .assistant ? Color.gray.opacity(0.35) : Color(hex: "#B9FB9D"))
+                        .fill(
+                            message.sender == .assistant
+                                ? AppTheme.chatBubbleAI
+                                : AppTheme.accentPrimary.opacity(0.9)
+                        )
+                        .overlay(
+                            bubbleShape(for: message.sender)
+                                .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
+                        )
                 )
                 .frame(maxWidth: 520, alignment: message.sender == .assistant ? .leading : .trailing)
                 .id(message.id)
@@ -69,7 +77,7 @@ struct ChatView: View {
                     Button(action: {}) {
                         Image(systemName: "doc.on.doc")
                             .font(.system(size: 13, weight: .semibold))
-                            .foregroundColor(.white.opacity(0.72))
+                            .foregroundColor(AppTheme.textSecondary)
                     }
 
                     Spacer(minLength: 0)
@@ -91,10 +99,17 @@ struct ChatView: View {
     private func badge(text: String) -> some View {
         Text(text)
             .font(.caption.weight(.semibold))
-            .foregroundColor(.white)
+            .foregroundColor(AppTheme.textPrimary)
             .padding(.horizontal, 10)
             .padding(.vertical, 4)
-            .background(Color.purple.opacity(0.8))
+            .background(
+                Capsule()
+                    .fill(AppTheme.accentCoolBlue.opacity(0.3))
+                    .overlay(
+                        Capsule()
+                            .stroke(AppTheme.accentCoolBlue.opacity(0.6), lineWidth: 1)
+                    )
+            )
             .clipShape(Capsule())
     }
 
@@ -104,35 +119,42 @@ struct ChatView: View {
                 TextField("Send a message", text: $inputText, axis: .vertical)
                     .textFieldStyle(.plain)
                     .lineLimit(1...3)
-                    .foregroundColor(.white)
-                    .tint(.white.opacity(0.9))
+                    .foregroundColor(AppTheme.textPrimary)
+                    .tint(AppTheme.accentTeal)
 
                 Button(action: {}) {
                     Image(systemName: "gearshape")
-                        .foregroundColor(.white.opacity(0.8))
+                        .foregroundColor(AppTheme.accentTeal)
                 }
 
                 Button(action: {}) {
                     Text("GPT-4.0")
                         .font(.caption.weight(.semibold))
-                        .foregroundColor(.white)
+                        .foregroundColor(AppTheme.textPrimary)
                         .padding(.horizontal, 12)
                         .padding(.vertical, 6)
-                        .background(Color.purple.opacity(0.8))
+                        .background(
+                            Capsule()
+                                .fill(AppTheme.accentCoolBlue.opacity(0.3))
+                                .overlay(
+                                    Capsule()
+                                        .stroke(AppTheme.accentCoolBlue.opacity(0.6), lineWidth: 1)
+                                )
+                        )
                         .clipShape(Capsule())
                 }
 
                 Button(action: {}) {
                     Image(systemName: "mic.fill")
-                        .foregroundColor(.white.opacity(0.85))
+                        .foregroundColor(AppTheme.accentTeal)
                 }
 
                 Button(action: sendMessage) {
                     Image(systemName: "paperplane.fill")
                         .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(.black)
+                        .foregroundColor(AppTheme.background)
                         .padding(12)
-                        .background(Color.white)
+                        .background(AppTheme.accentPrimary)
                         .clipShape(Circle())
                 }
                 .disabled(inputText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
@@ -142,12 +164,12 @@ struct ChatView: View {
             .padding(.horizontal, 18)
             .background(
                 RoundedRectangle(cornerRadius: 28, style: .continuous)
-                    .fill(AppTheme.card.opacity(0.85))
+                    .fill(AppTheme.panel)
                     .overlay(
                         RoundedRectangle(cornerRadius: 28, style: .continuous)
-                            .stroke(Color.white.opacity(0.05), lineWidth: 1)
+                            .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
                     )
-                    .shadow(color: Color.black.opacity(0.25), radius: 20, x: 0, y: 20)
+                    .shadow(color: AppTheme.background.opacity(0.3), radius: 20, x: 0, y: 20)
             )
 
             Button(action: regenerateResponse) {
@@ -157,15 +179,15 @@ struct ChatView: View {
                     Text("Regenerate")
                         .font(.system(size: 14, weight: .semibold, design: .rounded))
                 }
-                .foregroundColor(.white.opacity(0.88))
+                .foregroundColor(AppTheme.accentTeal)
                 .padding(.horizontal, 20)
                 .padding(.vertical, 14)
                 .background(
                     RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .fill(AppTheme.card.opacity(0.75))
+                        .fill(AppTheme.accentTeal.opacity(0.24))
                         .overlay(
                             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                                .stroke(Color.white.opacity(0.05), lineWidth: 1)
+                                .stroke(AppTheme.accentTeal.opacity(0.6), lineWidth: 1)
                         )
                 )
             }

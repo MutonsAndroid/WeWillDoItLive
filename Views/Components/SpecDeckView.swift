@@ -1,10 +1,9 @@
 import SwiftUI
 
 struct SpecDeckView: View {
-    @ObservedObject var theme: AppTheme
     @StateObject private var viewModel = SpecDeckViewModel()
 
-    private var accentColor: Color { theme.accentColor }
+    private let accentColor: Color = AppTheme.accentCoolBlue
 
     var body: some View {
         ZStack(alignment: .trailing) {
@@ -16,13 +15,14 @@ struct SpecDeckView: View {
             .padding(20)
             .background(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .fill(AppTheme.card.opacity(0.92))
+                    .fill(AppTheme.panel)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20, style: .continuous)
-                            .stroke(Color.white.opacity(0.04), lineWidth: 1)
+                            .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
                     )
                     .shadow(color: accentColor.opacity(0.18), radius: 28, x: 0, y: 18)
             )
+            .foregroundColor(AppTheme.textPrimary)
 
             if viewModel.isHistoryVisible {
                 SpecHistoryDrawer(
@@ -45,12 +45,12 @@ struct SpecDeckView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Spec Execution Deck")
-                        .font(theme.sectionTitleFont)
+                        .font(.system(size: 15, weight: .semibold, design: .rounded))
                         .foregroundColor(accentColor)
 
                     Text("Monitor Agent OS specs as they execute")
-                        .font(theme.bodyFont)
-                        .foregroundColor(theme.textColor.opacity(0.65))
+                        .font(.system(size: 13, weight: .regular, design: .rounded))
+                        .foregroundColor(AppTheme.textSecondary)
                 }
 
                 Spacer()
@@ -62,19 +62,20 @@ struct SpecDeckView: View {
                         .padding(.vertical, 8)
                         .background(
                             Capsule()
-                                .fill(accentColor.opacity(0.16))
+                                .fill(AppTheme.accentTeal.opacity(0.2))
                                 .overlay(
                                     Capsule()
-                                        .stroke(accentColor.opacity(0.32), lineWidth: 1)
+                                        .stroke(AppTheme.accentTeal.opacity(0.5), lineWidth: 1)
                                 )
                         )
-                        .foregroundColor(accentColor)
+                        .foregroundColor(AppTheme.accentTeal)
                 }
                 .buttonStyle(.plain)
             }
 
-            theme.divider
-                .opacity(0.3)
+            Rectangle()
+                .fill(AppTheme.border.opacity(0.6))
+                .frame(height: 1)
         }
     }
 
@@ -109,21 +110,21 @@ struct SpecDeckView: View {
     private var emptyState: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("All specs are complete.")
-                .font(theme.bodyFont.weight(.semibold))
-                .foregroundColor(theme.textColor.opacity(0.85))
+                .font(.system(size: 13, weight: .semibold, design: .rounded))
+                .foregroundColor(AppTheme.textPrimary)
 
             Text("New Agent OS specs will automatically surface here as they are generated.")
-                .font(theme.bodyFont)
-                .foregroundColor(theme.textColor.opacity(0.65))
+                .font(.system(size: 12.5, weight: .regular, design: .rounded))
+                .foregroundColor(AppTheme.textSecondary)
         }
         .padding(24)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(Color.black.opacity(0.35))
+                .fill(AppTheme.background.opacity(0.55))
                 .overlay(
                     RoundedRectangle(cornerRadius: 16, style: .continuous)
-                        .stroke(Color.white.opacity(0.05), lineWidth: 1)
+                        .stroke(AppTheme.border.opacity(0.5), lineWidth: 1)
                 )
         )
     }
@@ -159,13 +160,13 @@ private struct SpecCardView: View {
             VStack(alignment: .leading, spacing: 6) {
                 Text(task.title)
                     .font(.system(size: 16, weight: .semibold, design: .rounded))
-                    .foregroundColor(.white)
+                    .foregroundColor(AppTheme.textPrimary)
 
                 HStack(spacing: 8) {
                     badge(text: task.model.uppercased(), icon: "bolt.fill")
 
                     badge(text: task.statusLabel, icon: task.statusIcon)
-                        .foregroundStyle(task.statusColor.opacity(0.75))
+                        .foregroundStyle(task.statusColor.opacity(0.9))
                 }
             }
 
@@ -175,7 +176,7 @@ private struct SpecCardView: View {
                 Toggle(isOn: $isChecked) {
                     Text("Complete")
                         .font(.system(size: 13, weight: .semibold, design: .rounded))
-                        .foregroundColor(.white.opacity(0.85))
+                        .foregroundColor(AppTheme.accentPrimary)
                 }
                 .toggleStyle(.checkbox)
                 .onChange(of: isChecked) { newValue in
@@ -190,7 +191,7 @@ private struct SpecCardView: View {
     private var description: some View {
         Text(task.description)
             .font(.system(size: 13, weight: .regular, design: .rounded))
-            .foregroundColor(.white.opacity(0.78))
+            .foregroundColor(AppTheme.textSecondary)
             .multilineTextAlignment(.leading)
     }
 
@@ -199,11 +200,11 @@ private struct SpecCardView: View {
             Text("Validation")
                 .font(.system(size: 12, weight: .semibold, design: .rounded))
                 .textCase(.uppercase)
-                .foregroundColor(.white.opacity(0.55))
+                .foregroundColor(AppTheme.textSecondary)
 
             Text(task.validation)
                 .font(.system(size: 12.5, weight: .regular, design: .rounded))
-                .foregroundColor(.white.opacity(0.68))
+                .foregroundColor(AppTheme.textSecondary.opacity(0.9))
         }
     }
 
@@ -211,7 +212,7 @@ private struct SpecCardView: View {
         HStack {
             Text(task.progressText)
                 .font(.system(size: 12, weight: .semibold, design: .rounded))
-                .foregroundColor(.white.opacity(0.55))
+                .foregroundColor(AppTheme.textSecondary)
             Spacer()
         }
     }
@@ -220,13 +221,13 @@ private struct SpecCardView: View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
                 Capsule()
-                    .fill(Color.white.opacity(0.08))
+                    .fill(AppTheme.border.opacity(0.3))
                 Capsule()
                     .fill(
                         LinearGradient(
                             colors: [
-                                accentColor.opacity(0.9),
-                                accentColor.opacity(0.65)
+                                AppTheme.accentPrimary.opacity(0.9),
+                                AppTheme.accentTeal.opacity(0.7)
                             ],
                             startPoint: .leading,
                             endPoint: .trailing
@@ -243,10 +244,10 @@ private struct SpecCardView: View {
 
     private var cardBackground: some View {
         RoundedRectangle(cornerRadius: 18, style: .continuous)
-            .fill(Color(hex: "#2A2B2F").opacity(0.94))
+            .fill(AppTheme.panel)
             .overlay(
                 RoundedRectangle(cornerRadius: 18, style: .continuous)
-                    .stroke(Color.white.opacity(0.05), lineWidth: 1)
+                    .stroke(AppTheme.border.opacity(0.7), lineWidth: 1)
             )
             .shadow(color: accentColor.opacity(0.14), radius: 18, x: 0, y: 12)
     }
@@ -254,14 +255,14 @@ private struct SpecCardView: View {
     private var avatar: some View {
         ZStack {
             Circle()
-                .fill(accentColor.opacity(0.18))
+                .fill(AppTheme.accentCoolBlue.opacity(0.18))
                 .overlay(
                     Circle()
-                        .stroke(accentColor.opacity(0.35), lineWidth: 1)
+                        .stroke(AppTheme.accentCoolBlue.opacity(0.35), lineWidth: 1)
                 )
             Text(task.avatarInitials)
                 .font(.system(size: 13, weight: .semibold, design: .rounded))
-                .foregroundColor(accentColor)
+                .foregroundColor(AppTheme.accentCoolBlue)
         }
         .frame(width: 34, height: 34)
     }
@@ -273,12 +274,12 @@ private struct SpecCardView: View {
             Text(text)
                 .font(.system(size: 11, weight: .semibold, design: .rounded))
         }
-        .foregroundColor(.white.opacity(0.75))
+        .foregroundColor(AppTheme.textSecondary)
         .padding(.horizontal, 10)
         .padding(.vertical, 5)
         .background(
             Capsule()
-                .fill(Color.white.opacity(0.08))
+                .fill(AppTheme.background.opacity(0.6))
         )
     }
 }
@@ -317,9 +318,9 @@ private extension SpecTask {
 
     var statusColor: Color {
         switch status {
-        case .pending: Color.orange
-        case .running: Color.blue
-        case .complete: Color.green
+        case .pending: AppTheme.warning
+        case .running: AppTheme.accentCoolBlue
+        case .complete: AppTheme.accentPrimary
         }
     }
 }
@@ -335,18 +336,22 @@ struct SpecHistoryDrawer: View {
             HStack {
                 Text("Spec History")
                     .font(.system(size: 14, weight: .semibold, design: .rounded))
-                    .foregroundColor(.white.opacity(0.85))
+                    .foregroundColor(AppTheme.textPrimary)
 
                 Spacer()
 
                 Button(action: closeAction) {
                     Image(systemName: "xmark")
                         .font(.system(size: 12, weight: .bold))
-                        .foregroundColor(.white.opacity(0.7))
+                        .foregroundColor(AppTheme.textSecondary)
                         .padding(6)
                         .background(
                             Circle()
-                                .fill(Color.white.opacity(0.08))
+                                .fill(AppTheme.background.opacity(0.7))
+                                .overlay(
+                                    Circle()
+                                        .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
+                                )
                         )
                 }
                 .buttonStyle(.plain)
@@ -363,7 +368,7 @@ struct SpecHistoryDrawer: View {
                 title: "Completed",
                 tasks: completed,
                 icon: "checkmark.circle.fill",
-                iconColor: Color.green.opacity(0.85)
+                iconColor: AppTheme.accentPrimary.opacity(0.85)
             )
 
             Spacer(minLength: 0)
@@ -372,10 +377,10 @@ struct SpecHistoryDrawer: View {
         .frame(width: 260, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .fill(Color.black.opacity(0.72))
+                .fill(AppTheme.panel)
                 .overlay(
                     RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .stroke(Color.white.opacity(0.05), lineWidth: 1)
+                        .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
                 )
         )
         .shadow(color: accentColor.opacity(0.2), radius: 22, x: 12, y: 20)
@@ -386,12 +391,12 @@ struct SpecHistoryDrawer: View {
             Text(title)
                 .font(.system(size: 12, weight: .semibold, design: .rounded))
                 .textCase(.uppercase)
-                .foregroundColor(.white.opacity(0.55))
+                .foregroundColor(AppTheme.textSecondary)
 
             if tasks.isEmpty {
                 Text("None")
                     .font(.system(size: 12.5, weight: .regular, design: .rounded))
-                    .foregroundColor(.white.opacity(0.4))
+                    .foregroundColor(AppTheme.textSecondary.opacity(0.6))
             } else {
                 ForEach(tasks, id: \.stableKey) { task in
                     HStack(spacing: 10) {
@@ -403,12 +408,12 @@ struct SpecHistoryDrawer: View {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(task.title)
                                 .font(.system(size: 12.5, weight: .semibold, design: .rounded))
-                                .foregroundColor(.white.opacity(0.86))
+                                .foregroundColor(AppTheme.textPrimary)
                                 .lineLimit(2)
 
                             Text(task.progressText)
                                 .font(.system(size: 11, weight: .medium, design: .rounded))
-                                .foregroundColor(.white.opacity(0.45))
+                                .foregroundColor(AppTheme.textSecondary)
                         }
 
                         Spacer()
@@ -417,7 +422,11 @@ struct SpecHistoryDrawer: View {
                     .padding(.horizontal, 10)
                     .background(
                         RoundedRectangle(cornerRadius: 12, style: .continuous)
-                            .fill(Color.white.opacity(0.04))
+                            .fill(AppTheme.background.opacity(0.6))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .stroke(AppTheme.border.opacity(0.5), lineWidth: 1)
+                            )
                     )
                 }
             }
