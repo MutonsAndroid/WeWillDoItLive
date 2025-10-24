@@ -3,12 +3,14 @@ import SwiftUI
 struct WeWillDoItLiveApp: App {
     @StateObject private var themeManager = ThemeManager()
     @StateObject private var projectState = ProjectState()
+    @StateObject private var engine = OpenCodeEngine()
 
     var body: some Scene {
         WindowGroup {
             MainWindowView()
                 .environmentObject(themeManager)
                 .environmentObject(projectState)
+                .environmentObject(engine)
                 .onAppear {
                     if let session = SessionManager.shared.load() {
                         if let url = session.projectFolderURL {

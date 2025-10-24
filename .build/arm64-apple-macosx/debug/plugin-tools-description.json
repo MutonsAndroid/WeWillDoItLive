@@ -3,6 +3,3814 @@
 
   ],
   "copyCommands" : {
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/1c-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/1c-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/1c-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/3024.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/3024.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/3024.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/a11y-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/a11y-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/a11y-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/a11y-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/a11y-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/a11y-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/agate.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/agate.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/agate.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/an-old-hope.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/an-old-hope.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/an-old-hope.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/androidstudio.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/androidstudio.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/androidstudio.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/apathy.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/apathy.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/apathy.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/apprentice.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/apprentice.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/apprentice.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/arduino-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/arduino-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/arduino-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/arta.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/arta.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/arta.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ascetic.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ascetic.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ascetic.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ashes.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ashes.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ashes.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-cave-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-cave-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-cave-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-cave-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-cave-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-cave-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-cave.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-cave.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-cave.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-dune-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-dune-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-dune-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-dune-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-dune-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-dune-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-dune.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-dune.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-dune.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-estuary-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-estuary-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-estuary-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-estuary-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-estuary-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-estuary-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-estuary.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-estuary.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-estuary.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-forest-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-forest-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-forest-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-forest-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-forest-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-forest-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-forest.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-forest.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-forest.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-heath-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-heath-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-heath-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-heath-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-heath-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-heath-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-heath.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-heath.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-heath.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-lakeside-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-lakeside-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-lakeside-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-lakeside-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-lakeside-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-lakeside-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-lakeside.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-lakeside.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-lakeside.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-plateau-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-plateau-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-plateau-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-plateau-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-plateau-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-plateau-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-plateau.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-plateau.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-plateau.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-savanna-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-savanna-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-savanna-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-savanna-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-savanna-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-savanna-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-savanna.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-savanna.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-savanna.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-seaside-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-seaside-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-seaside-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-seaside-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-seaside-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-seaside-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-seaside.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-seaside.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-seaside.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-sulphurpool-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-sulphurpool-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-sulphurpool-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-sulphurpool-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-sulphurpool-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-sulphurpool-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-sulphurpool.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atelier-sulphurpool.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atelier-sulphurpool.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atlas.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atlas.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atlas.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atom-one-dark-reasonable.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atom-one-dark-reasonable.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atom-one-dark-reasonable.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atom-one-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atom-one-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atom-one-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atom-one-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/atom-one-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/atom-one-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/bespin.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/bespin.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/bespin.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-bathory.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-bathory.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-bathory.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-burzum.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-burzum.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-burzum.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-dark-funeral.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-dark-funeral.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-dark-funeral.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-gorgoroth.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-gorgoroth.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-gorgoroth.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-immortal.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-immortal.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-immortal.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-khold.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-khold.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-khold.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-marduk.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-marduk.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-marduk.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-mayhem.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-mayhem.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-mayhem.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-nile.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-nile.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-nile.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-venom.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal-venom.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal-venom.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/black-metal.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/black-metal.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brewer.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/brewer.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brewer.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/bright.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/bright.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/bright.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brogrammer.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/brogrammer.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brogrammer.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brown-paper.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/brown-paper.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brown-paper.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brush-trees-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/brush-trees-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brush-trees-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brush-trees.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/brush-trees.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/brush-trees.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/chalk.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/chalk.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/chalk.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/circus.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/circus.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/circus.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/classic-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/classic-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/classic-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/classic-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/classic-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/classic-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/codepen-embed.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/codepen-embed.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/codepen-embed.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/codeschool.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/codeschool.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/codeschool.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/color-brewer.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/color-brewer.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/color-brewer.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/colors.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/colors.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/colors.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cupcake.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/cupcake.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cupcake.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cupertino.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/cupertino.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cupertino.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-cherry.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/cybertopia-cherry.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-cherry.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-dimmer.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/cybertopia-dimmer.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-dimmer.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-icecap.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/cybertopia-icecap.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-icecap.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-saturated.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/cybertopia-saturated.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/cybertopia-saturated.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/danqing.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/danqing.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/danqing.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/darcula.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/darcula.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/darcula.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dark-violet.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/dark-violet.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dark-violet.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/darkmoss.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/darkmoss.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/darkmoss.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/darktooth.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/darktooth.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/darktooth.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/decaf.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/decaf.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/decaf.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/default-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/default-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/default-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/default-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/default-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/default-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/default.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/default.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/default.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/devibeans.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/devibeans.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/devibeans.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dirtysea.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/dirtysea.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dirtysea.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/docco.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/docco.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/docco.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dracula.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/dracula.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/dracula.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/edge-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/edge-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/edge-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/edge-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/edge-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/edge-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/eighties.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/eighties.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/eighties.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/embers.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/embers.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/embers.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/equilibrium-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-gray-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/equilibrium-gray-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-gray-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-gray-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/equilibrium-gray-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-gray-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/equilibrium-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/equilibrium-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/espresso.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/espresso.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/espresso.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/eva-dim.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/eva-dim.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/eva-dim.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/eva.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/eva.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/eva.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/far.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/far.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/far.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/felipec.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/felipec.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/felipec.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/flat.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/flat.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/flat.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/foundation.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/foundation.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/foundation.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/framer.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/framer.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/framer.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/fruit-soda.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/fruit-soda.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/fruit-soda.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gigavolt.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gigavolt.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gigavolt.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github-dark-dimmed.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/github-dark-dimmed.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github-dark-dimmed.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/github-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github-gist.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/github-gist.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github-gist.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/github.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/github.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gml.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gml.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gml.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/google-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/google-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/google-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/google-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/google-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/google-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/googlecode.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/googlecode.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/googlecode.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gradient-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gradient-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gradient-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gradient-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gradient-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gradient-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/grayscale-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/grayscale-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/grayscale-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/grayscale-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/grayscale-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/grayscale-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/grayscale.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/grayscale.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/grayscale.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/green-screen.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/green-screen.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/green-screen.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-hard.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-dark-hard.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-hard.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-medium.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-dark-medium.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-medium.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-pale.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-dark-pale.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-pale.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-soft.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-dark-soft.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark-soft.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light-hard.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-light-hard.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light-hard.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light-medium.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-light-medium.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light-medium.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light-soft.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-light-soft.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light-soft.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/gruvbox-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/gruvbox-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/hardcore.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/hardcore.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/hardcore.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/harmonic16-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/harmonic16-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/harmonic16-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/harmonic16-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/harmonic16-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/harmonic16-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/heetch-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/heetch-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/heetch-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/heetch-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/heetch-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/heetch-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/helios.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/helios.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/helios.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/highlight.min.js" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/highlighter/highlight.min.js"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/highlight.min.js"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/hopscotch.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/hopscotch.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/hopscotch.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/horizon-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/horizon-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/horizon-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/horizon-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/horizon-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/horizon-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/humanoid-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/humanoid-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/humanoid-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/humanoid-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/humanoid-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/humanoid-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/hybrid.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/hybrid.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/hybrid.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ia-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ia-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ia-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ia-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ia-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ia-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/icy-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/icy-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/icy-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/idea.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/idea.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/idea.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/intellij-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/intellij-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/intellij-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ir-black.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ir-black.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ir-black.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/isbl-editor-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/isbl-editor-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/isbl-editor-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/isbl-editor-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/isbl-editor-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/isbl-editor-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/isotope.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/isotope.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/isotope.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimber.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/kimber.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimber.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/kimbie-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/kimbie-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie.dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/kimbie.dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie.dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie.light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/kimbie.light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/kimbie.light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/lightfair.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/lightfair.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/lightfair.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/lioshi.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/lioshi.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/lioshi.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/london-tube.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/london-tube.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/london-tube.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/macintosh.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/macintosh.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/macintosh.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/magula.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/magula.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/magula.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/marrakesh.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/marrakesh.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/marrakesh.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/materia.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/materia.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/materia.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-darker.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/material-darker.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-darker.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-lighter.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/material-lighter.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-lighter.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-palenight.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/material-palenight.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-palenight.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-vivid.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/material-vivid.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material-vivid.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/material.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/material.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mellow-purple.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/mellow-purple.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mellow-purple.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mexico-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/mexico-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mexico-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mocha.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/mocha.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mocha.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mono-blue.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/mono-blue.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/mono-blue.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/monokai-sublime.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/monokai-sublime.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/monokai-sublime.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/monokai.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/monokai.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/monokai.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nebula.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/nebula.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nebula.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/night-owl.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/night-owl.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/night-owl.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nnfx-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/nnfx-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nnfx-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nnfx-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/nnfx-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nnfx-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nord.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/nord.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nord.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nova.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/nova.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/nova.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/obsidian.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/obsidian.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/obsidian.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ocean.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ocean.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ocean.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/oceanicnext.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/oceanicnext.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/oceanicnext.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/one-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/one-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/one-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/onedark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/onedark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/onedark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/outrun-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/outrun-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/outrun-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/panda-syntax-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/panda-syntax-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/panda-syntax-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/panda-syntax-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/panda-syntax-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/panda-syntax-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/papercolor-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/papercolor-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/papercolor-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/papercolor-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/papercolor-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/papercolor-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/paraiso-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/paraiso-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/paraiso-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/paraiso-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/paraiso-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/paraiso-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/paraiso.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/paraiso.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/paraiso.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pasque.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/pasque.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pasque.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/phd.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/phd.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/phd.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pico.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/pico.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pico.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pojoaque.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/pojoaque.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pojoaque.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pop.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/pop.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/pop.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/porple.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/porple.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/porple.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/purebasic.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/purebasic.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/purebasic.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/qtcreator-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/qtcreator-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator_dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/qtcreator_dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator_dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator_light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/qtcreator_light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qtcreator_light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qualia.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/qualia.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/qualia.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/railscasts.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/railscasts.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/railscasts.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rainbow.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/rainbow.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rainbow.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rebecca.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/rebecca.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rebecca.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ros-pine-dawn.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ros-pine-dawn.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ros-pine-dawn.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ros-pine-moon.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ros-pine-moon.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ros-pine-moon.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ros-pine.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/ros-pine.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/ros-pine.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rose-pine-dawn.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/rose-pine-dawn.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rose-pine-dawn.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rose-pine-moon.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/rose-pine-moon.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rose-pine-moon.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rose-pine.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/rose-pine.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/rose-pine.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/routeros.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/routeros.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/routeros.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/sagelight.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/sagelight.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/sagelight.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/sandcastle.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/sandcastle.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/sandcastle.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/school-book.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/school-book.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/school-book.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/seti-ui.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/seti-ui.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/seti-ui.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/shades-of-purple.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/shades-of-purple.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/shades-of-purple.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/shapeshifter.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/shapeshifter.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/shapeshifter.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/silk-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/silk-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/silk-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/silk-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/silk-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/silk-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/snazzy.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/snazzy.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/snazzy.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solar-flare-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/solar-flare-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solar-flare-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solar-flare.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/solar-flare.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solar-flare.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solarized-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/solarized-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solarized-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solarized-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/solarized-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/solarized-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/spacemacs.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/spacemacs.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/spacemacs.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/srcery.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/srcery.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/srcery.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/stackoverflow-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/stackoverflow-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/stackoverflow-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/stackoverflow-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/stackoverflow-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/stackoverflow-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/summercamp.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/summercamp.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/summercamp.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/summerfruit-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/summerfruit-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/summerfruit-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/summerfruit-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/summerfruit-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/summerfruit-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/sunburst.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/sunburst.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/sunburst.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/synth-midnight-terminal-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/synth-midnight-terminal-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/synth-midnight-terminal-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/synth-midnight-terminal-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/synth-midnight-terminal-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/synth-midnight-terminal-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tango.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tango.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tango.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tender.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tender.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tender.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tokyo-night-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tokyo-night-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tokyo-night-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tokyo-night-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tokyo-night-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tokyo-night-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night-blue.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tomorrow-night-blue.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night-blue.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night-bright.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tomorrow-night-bright.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night-bright.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night-eighties.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tomorrow-night-eighties.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night-eighties.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tomorrow-night.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow-night.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/tomorrow.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/tomorrow.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/twilight.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/twilight.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/twilight.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/unikitty-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/unikitty-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/unikitty-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/unikitty-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/unikitty-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/unikitty-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/vs.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/vs.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/vs.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/vs2015.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/vs2015.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/vs2015.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/vulcan.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/vulcan.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/vulcan.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-10-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-10-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-10-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-10.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-10.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-10.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-95-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-95-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-95-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-95.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-95.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-95.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-high-contrast-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-high-contrast-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-high-contrast-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-high-contrast.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-high-contrast.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-high-contrast.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-nt-light.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-nt-light.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-nt-light.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-nt.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/windows-nt.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/windows-nt.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/woodland.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/woodland.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/woodland.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xcode-dark.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/xcode-dark.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xcode-dark.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xcode-dusk.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/xcode-dusk.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xcode-dusk.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xcode.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/xcode.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xcode.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xt256.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/xt256.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/xt256.min.css"
+        }
+      ]
+    },
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/zenburn.min.css" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/assets/styles/zenburn.min.css"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr_Highlightr.bundle/zenburn.min.css"
+        }
+      ]
+    },
     "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive_WeWillDoItLive.bundle/specs.json" : {
       "inputs" : [
         {
@@ -30,6 +3838,145 @@
 
   ],
   "swiftCommands" : {
+    "C.Highlightr-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/sources",
+      "importPath" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/CodeAttributedString.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/HTMLUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Highlightr.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Shims.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<Highlightr-arm64-apple-macosx26.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Highlightr",
+      "moduleOutputPath" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/Highlightr.swiftmodule",
+      "objects" : [
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/include/Highlightr-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/Highlightr.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/CodeAttributedString.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/HTMLUtils.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Highlightr.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Shims.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Theme.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build",
+      "wholeModuleOptimization" : false
+    },
     "C.WeWillDoItLive-arm64-apple-macosx26.0-debug.module" : {
       "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "fileList" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources",
@@ -54,6 +4001,10 @@
         {
           "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/Models/ChatMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Models/CodexTask.swift"
         },
         {
           "kind" : "file",
@@ -85,7 +4036,35 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeHistory.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/Components/CodexTaskView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/EnvEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/HistoryView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/OpenCodeView.swift"
         },
         {
           "kind" : "file",
@@ -141,6 +4120,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/Highlightr.swiftmodule"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/sources"
         }
       ],
@@ -153,6 +4136,7 @@
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/GitManager.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/MainWindowView.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ChatMessage.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileNode.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecTask.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ProjectPickerView.swift.o",
@@ -160,7 +4144,14 @@
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/RecentProjectsManager.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SessionManager.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecDeckRepository.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecDeckViewModel.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecLoader.swift.o",
@@ -242,6 +4233,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileNode.swift.o"
         },
         {
@@ -270,7 +4265,35 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.swift.o"
         },
         {
           "kind" : "file",
@@ -328,6 +4351,7 @@
         "/Users/DutDev/Code/WeWillDoItLive/GitManager.swift",
         "/Users/DutDev/Code/WeWillDoItLive/MainWindowView.swift",
         "/Users/DutDev/Code/WeWillDoItLive/Models/ChatMessage.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Models/CodexTask.swift",
         "/Users/DutDev/Code/WeWillDoItLive/Models/FileNode.swift",
         "/Users/DutDev/Code/WeWillDoItLive/Models/SpecTask.swift",
         "/Users/DutDev/Code/WeWillDoItLive/ProjectPickerView.swift",
@@ -335,7 +4359,14 @@
         "/Users/DutDev/Code/WeWillDoItLive/RecentProjectsManager.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SessionManager.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeConfig.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeEngine.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeHistory.swift",
         "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/Components/CodexTaskView.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/EnvEditorView.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/HistoryView.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/OpenCodeView.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SpecDeckViewModel.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SpecLoader.swift",
@@ -356,6 +4387,63 @@
 
   },
   "swiftTargetScanArgs" : {
+    "Highlightr" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "Highlightr",
+      "-c",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/CodeAttributedString.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/HTMLUtils.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Highlightr.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Shims.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Theme.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/include/Highlightr-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
     "WeWillDoItLive" : [
       "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "-module-name",
@@ -368,6 +4456,7 @@
       "/Users/DutDev/Code/WeWillDoItLive/GitManager.swift",
       "/Users/DutDev/Code/WeWillDoItLive/MainWindowView.swift",
       "/Users/DutDev/Code/WeWillDoItLive/Models/ChatMessage.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Models/CodexTask.swift",
       "/Users/DutDev/Code/WeWillDoItLive/Models/FileNode.swift",
       "/Users/DutDev/Code/WeWillDoItLive/Models/SpecTask.swift",
       "/Users/DutDev/Code/WeWillDoItLive/ProjectPickerView.swift",
@@ -375,7 +4464,14 @@
       "/Users/DutDev/Code/WeWillDoItLive/RecentProjectsManager.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SessionManager.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeConfig.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeEngine.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeHistory.swift",
       "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/Components/CodexTaskView.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/EnvEditorView.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/HistoryView.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/OpenCodeView.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SpecDeckViewModel.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SpecLoader.swift",
@@ -437,8 +4533,11 @@
     ]
   },
   "targetDependencyMap" : {
-    "WeWillDoItLive" : [
+    "Highlightr" : [
 
+    ],
+    "WeWillDoItLive" : [
+      "Highlightr"
     ]
   },
   "testDiscoveryCommands" : {
@@ -453,6 +4552,40 @@
     }
   },
   "writeCommands" : {
+    "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/CodeAttributedString.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/HTMLUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Highlightr.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Shims.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/sources"
+    },
     "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive-entitlement.plist" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
@@ -496,6 +4629,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Models/CodexTask.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/Models/FileNode.swift"
         },
         {
@@ -524,7 +4661,35 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeHistory.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/Components/CodexTaskView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/EnvEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/HistoryView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/OpenCodeView.swift"
         },
         {
           "kind" : "file",
@@ -582,6 +4747,30 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o"
         },
         {
@@ -595,6 +4784,18 @@
         {
           "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.swift.o"
         },
         {
           "kind" : "file",
@@ -614,7 +4815,27 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/MainWindowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.swift.o"
         },
         {
           "kind" : "file",

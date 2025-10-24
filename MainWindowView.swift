@@ -21,9 +21,8 @@ struct MainWindowView: View {
 
             verticalDivider
 
-            ChatView()
+            OpenCodeView()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(AppTheme.background)
 
             verticalDivider
 

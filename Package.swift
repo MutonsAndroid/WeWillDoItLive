@@ -48,11 +48,17 @@ let package = Package(
     products: [
         .executable(name: "WeWillDoItLive", targets: ["WeWillDoItLive"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/raspu/Highlightr.git", from: "2.1.2")
+    ],
     targets: [
         .executableTarget(
             name: "WeWillDoItLive",
+            dependencies: [
+                .product(name: "Highlightr", package: "Highlightr")
+            ],
             path: ".",
+            exclude: ["Tools"],
             resources: [
                 .process("data/specs.json")
             ],

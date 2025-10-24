@@ -10,6 +10,7 @@ struct SpecDeckView: View {
             VStack(alignment: .leading, spacing: 18) {
                 header
                 cardsStack
+                codexTasksSection
                 Spacer(minLength: 0)
             }
             .padding(20)
@@ -38,6 +39,29 @@ struct SpecDeckView: View {
         }
         .animation(.spring(response: 0.48, dampingFraction: 0.86), value: viewModel.deck)
         .animation(.spring(response: 0.48, dampingFraction: 0.86), value: viewModel.isHistoryVisible)
+    }
+
+    private var codexTasks: [CodexTask] {
+        viewModel.deck.map { CodexTask(specTask: $0) }
+    }
+
+    @ViewBuilder
+    private var codexTasksSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Codex Tasks")
+                .font(.system(size: 14, weight: .semibold, design: .rounded))
+                .foregroundColor(AppTheme.textPrimary)
+
+            if codexTasks.isEmpty {
+                Text("All Codex tasks are synced with OpenCode.")
+                    .font(.system(size: 12.5, weight: .regular, design: .rounded))
+                    .foregroundColor(AppTheme.textSecondary)
+            } else {
+                ForEach(Array(codexTasks.prefix(3))) { task in
+                    CodexTaskView(task: task)
+                }
+            }
+        }
     }
 
     private var header: some View {

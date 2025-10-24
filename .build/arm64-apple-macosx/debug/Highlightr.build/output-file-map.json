@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/master.swiftdeps"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/CodeAttributedString.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/CodeAttributedString.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/HTMLUtils.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/HTMLUtils.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Highlightr.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Highlightr.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Shims.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Shims.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/.build/checkouts/Highlightr/src/classes/Theme.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/Theme.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Highlightr.build/resource_bundle_accessor.dia"
+  }
+}

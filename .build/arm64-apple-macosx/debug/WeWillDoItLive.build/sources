@@ -3,6 +3,7 @@
 /Users/DutDev/Code/WeWillDoItLive/GitManager.swift
 /Users/DutDev/Code/WeWillDoItLive/MainWindowView.swift
 /Users/DutDev/Code/WeWillDoItLive/Models/ChatMessage.swift
+/Users/DutDev/Code/WeWillDoItLive/Models/CodexTask.swift
 /Users/DutDev/Code/WeWillDoItLive/Models/FileNode.swift
 /Users/DutDev/Code/WeWillDoItLive/Models/SpecTask.swift
 /Users/DutDev/Code/WeWillDoItLive/ProjectPickerView.swift
@@ -10,7 +11,14 @@
 /Users/DutDev/Code/WeWillDoItLive/RecentProjectsManager.swift
 /Users/DutDev/Code/WeWillDoItLive/SessionManager.swift
 /Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeConfig.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeEngine.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeHistory.swift
 /Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/Components/CodexTaskView.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/EnvEditorView.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/HistoryView.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/OpenCodeView.swift
 /Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift
 /Users/DutDev/Code/WeWillDoItLive/SpecDeckViewModel.swift
 /Users/DutDev/Code/WeWillDoItLive/SpecLoader.swift

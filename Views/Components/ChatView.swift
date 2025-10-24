@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ChatView: View {
+    @EnvironmentObject var engine: OpenCodeEngine
     @State private var messages: [ChatMessage] = [
         ChatMessage(text: "Who is Andres The Designer?", sender: .user),
         ChatMessage(
@@ -144,6 +145,7 @@ struct ChatView: View {
         let trimmed = messageText.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return }
         messages.append(ChatMessage(text: trimmed, sender: .user))
+        engine.run(command: trimmed)
         messageText = ""
     }
 

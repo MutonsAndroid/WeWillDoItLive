@@ -6,16 +6,23 @@ struct AppTheme {
     static let panel = Color(hex: "#151020")
     static let panelBackground = Color(hex: "#151020")
     static let chatBubbleAI = Color(hex: "#1E182A")
+    static let openCodeBackground = Color(hex: "#151020")
 
     // Accents
     static let accentPrimary = Color(hex: "#8DFBA3")
     static let accentCoolBlue = Color(hex: "#4C91D0")
     static let accentTeal = Color(hex: "#23A9B4")
 
+    // Status
+    static let progressActive = Color(hex: "#4CAF50")
+    static let progressIdle = Color(hex: "#555555")
+    static let alertRed = Color(hex: "#FF5555")
+
     // Text
     static let textPrimary = Color(hex: "#F4FFE0")
     static let textSecondary = Color(hex: "#A6A3B9")
     static let textDisabled = Color(hex: "#6A6880")
+    static let openCodeText = Color(hex: "#E0E0E0")
 
     // Utility
     static let border = Color(hex: "#332A4D")

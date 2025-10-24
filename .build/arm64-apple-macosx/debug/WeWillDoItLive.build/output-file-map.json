@@ -37,6 +37,13 @@
     "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ChatMessage.swiftdeps",
     "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/ChatMessage.dia"
   },
+  "/Users/DutDev/Code/WeWillDoItLive/Models/CodexTask.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTask.dia"
+  },
   "/Users/DutDev/Code/WeWillDoItLive/Models/FileNode.swift": {
     "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileNode.d",
     "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileNode.swift.o",
@@ -86,12 +93,61 @@
     "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swiftdeps",
     "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.dia"
   },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeConfig.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeConfig.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeEngine.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeEngine.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Engine/OpenCodeHistory.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeHistory.dia"
+  },
   "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift": {
     "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.d",
     "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o",
     "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme~partial.swiftmodule",
     "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swiftdeps",
     "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/Components/CodexTaskView.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodexTaskView.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/EnvEditorView.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/EnvEditorView.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/HistoryView.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/HistoryView.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/OpenCodeView.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/OpenCodeView.dia"
   },
   "/Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift": {
     "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecDeckRepository.d",
