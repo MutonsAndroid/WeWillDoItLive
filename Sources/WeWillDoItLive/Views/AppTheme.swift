@@ -4,6 +4,7 @@ struct AppTheme {
     // Base Layers
     static let background = Color(hex: "#0D0A13")
     static let panel = Color(hex: "#151020")
+    static let panelBackground = Color(hex: "#151020")
     static let chatBubbleAI = Color(hex: "#1E182A")
 
     // Accents

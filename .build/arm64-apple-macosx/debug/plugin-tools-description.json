@@ -37,10 +37,6 @@
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/DutDev/Code/WeWillDoItLive/AppTheme.swift"
-        },
-        {
-          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/CodeEditorView.swift"
         },
         {
@@ -86,6 +82,10 @@
         {
           "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift"
         },
         {
           "kind" : "file",
@@ -148,7 +148,6 @@
       "moduleName" : "WeWillDoItLive",
       "moduleOutputPath" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/Modules/WeWillDoItLive.swiftmodule",
       "objects" : [
-        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/FileLoader.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/GitManager.swift.o",
@@ -161,6 +160,7 @@
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/RecentProjectsManager.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SessionManager.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o",
+        "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecDeckRepository.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecDeckViewModel.swift.o",
         "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecLoader.swift.o",
@@ -222,10 +222,6 @@
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o"
-        },
-        {
-          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o"
         },
         {
@@ -271,6 +267,10 @@
         {
           "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o"
         },
         {
           "kind" : "file",
@@ -323,7 +323,6 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/DutDev/Code/WeWillDoItLive/AppTheme.swift",
         "/Users/DutDev/Code/WeWillDoItLive/CodeEditorView.swift",
         "/Users/DutDev/Code/WeWillDoItLive/FileLoader.swift",
         "/Users/DutDev/Code/WeWillDoItLive/GitManager.swift",
@@ -336,6 +335,7 @@
         "/Users/DutDev/Code/WeWillDoItLive/RecentProjectsManager.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SessionManager.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift",
+        "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SpecDeckViewModel.swift",
         "/Users/DutDev/Code/WeWillDoItLive/SpecLoader.swift",
@@ -363,7 +363,6 @@
       "-package-name",
       "wewilldoitlive",
       "-c",
-      "/Users/DutDev/Code/WeWillDoItLive/AppTheme.swift",
       "/Users/DutDev/Code/WeWillDoItLive/CodeEditorView.swift",
       "/Users/DutDev/Code/WeWillDoItLive/FileLoader.swift",
       "/Users/DutDev/Code/WeWillDoItLive/GitManager.swift",
@@ -376,6 +375,7 @@
       "/Users/DutDev/Code/WeWillDoItLive/RecentProjectsManager.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SessionManager.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift",
+      "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SpecDeckViewModel.swift",
       "/Users/DutDev/Code/WeWillDoItLive/SpecLoader.swift",
@@ -476,10 +476,6 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/DutDev/Code/WeWillDoItLive/AppTheme.swift"
-        },
-        {
-          "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/CodeEditorView.swift"
         },
         {
@@ -525,6 +521,10 @@
         {
           "kind" : "file",
           "name" : "/Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift"
         },
         {
           "kind" : "file",

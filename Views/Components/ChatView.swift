@@ -8,10 +8,11 @@ struct ChatView: View {
             sender: .assistant
         )
     ]
-    @State private var inputText: String = ""
+    @State private var messageText: String = ""
+    @State private var selectedModel: ChatModel = .gpt4
 
     var body: some View {
-        VStack(spacing: 28) {
+        ZStack(alignment: .bottom) {
             ScrollViewReader { proxy in
                 ScrollView(showsIndicators: false) {
                     VStack(spacing: 20) {
@@ -28,7 +29,9 @@ struct ChatView: View {
                             .padding(.horizontal, 12)
                         }
                     }
-                    .padding(.vertical, 32)
+                    .padding(.horizontal, 32)
+                    .padding(.top, 32)
+                    .padding(.bottom, 200)
                     .frame(maxWidth: 680)
                     .frame(maxWidth: .infinity)
                 }
@@ -40,12 +43,17 @@ struct ChatView: View {
                 }
             }
 
-            bottomControls
-                .frame(maxWidth: 680)
+            VStack(spacing: 0) {
+                Spacer()
+                chatControls
+                    .frame(maxWidth: 680)
+                    .padding(.horizontal, 32)
+                    .padding(.bottom, 24)
+            }
+            .ignoresSafeArea(.keyboard, edges: .bottom)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-        .padding(.horizontal, 32)
-        .padding(.bottom, 24)
+        .background(AppTheme.background)
     }
 
     private func bubbleView(for message: ChatMessage) -> some View {
@@ -113,92 +121,30 @@ struct ChatView: View {
             .clipShape(Capsule())
     }
 
-    private var bottomControls: some View {
-        HStack(spacing: 16) {
-            HStack(spacing: 12) {
-                TextField("Send a message", text: $inputText, axis: .vertical)
-                    .textFieldStyle(.plain)
-                    .lineLimit(1...3)
-                    .foregroundColor(AppTheme.textPrimary)
-                    .tint(AppTheme.accentTeal)
-
-                Button(action: {}) {
-                    Image(systemName: "gearshape")
-                        .foregroundColor(AppTheme.accentTeal)
-                }
-
-                Button(action: {}) {
-                    Text("GPT-4.0")
-                        .font(.caption.weight(.semibold))
-                        .foregroundColor(AppTheme.textPrimary)
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 6)
-                        .background(
-                            Capsule()
-                                .fill(AppTheme.accentCoolBlue.opacity(0.3))
-                                .overlay(
-                                    Capsule()
-                                        .stroke(AppTheme.accentCoolBlue.opacity(0.6), lineWidth: 1)
-                                )
-                        )
-                        .clipShape(Capsule())
-                }
-
-                Button(action: {}) {
-                    Image(systemName: "mic.fill")
-                        .foregroundColor(AppTheme.accentTeal)
-                }
-
-                Button(action: sendMessage) {
-                    Image(systemName: "paperplane.fill")
-                        .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(AppTheme.background)
-                        .padding(12)
-                        .background(AppTheme.accentPrimary)
-                        .clipShape(Circle())
-                }
-                .disabled(inputText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-                .opacity(inputText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? 0.5 : 1.0)
+    private var chatControls: some View {
+        VStack(alignment: .trailing, spacing: 0) {
+            HStack(spacing: 8) {
+                ModelSelectorView(selectedModel: $selectedModel)
+                    .animation(.spring(response: 0.35, dampingFraction: 0.7), value: selectedModel)
+                    .transition(.move(edge: .bottom))
+                RegenerateButton(action: regenerateResponse)
             }
-            .padding(.vertical, 14)
-            .padding(.horizontal, 18)
-            .background(
-                RoundedRectangle(cornerRadius: 28, style: .continuous)
-                    .fill(AppTheme.panel)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 28, style: .continuous)
-                            .stroke(AppTheme.border.opacity(0.6), lineWidth: 1)
-                    )
-                    .shadow(color: AppTheme.background.opacity(0.3), radius: 20, x: 0, y: 20)
+            .frame(maxWidth: .infinity, alignment: .trailing)
+            .padding(.bottom, 6)
+
+            InputBarView(
+                messageText: $messageText,
+                isSendDisabled: messageText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+                sendMessage: sendMessage
             )
-
-            Button(action: regenerateResponse) {
-                HStack(spacing: 8) {
-                    Image(systemName: "sparkles")
-                        .font(.system(size: 14, weight: .semibold))
-                    Text("Regenerate")
-                        .font(.system(size: 14, weight: .semibold, design: .rounded))
-                }
-                .foregroundColor(AppTheme.accentTeal)
-                .padding(.horizontal, 20)
-                .padding(.vertical, 14)
-                .background(
-                    RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .fill(AppTheme.accentTeal.opacity(0.24))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                                .stroke(AppTheme.accentTeal.opacity(0.6), lineWidth: 1)
-                        )
-                )
-            }
         }
     }
 
     private func sendMessage() {
-        let trimmed = inputText.trimmingCharacters(in: .whitespacesAndNewlines)
+        let trimmed = messageText.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return }
         messages.append(ChatMessage(text: trimmed, sender: .user))
-        inputText = ""
+        messageText = ""
     }
 
     private func regenerateResponse() {
@@ -260,5 +206,154 @@ private struct AnyShape: Shape {
 
     func path(in rect: CGRect) -> Path {
         buildPath(rect)
+    }
+}
+
+private enum ChatModel: String, CaseIterable, Identifiable {
+    case gpt4 = "GPT-4.0"
+    case gpt4Mini = "GPT-4 Turbo"
+    case gpt35 = "GPT-3.5"
+
+    var id: String { rawValue }
+}
+
+private struct ModelSelectorView: View {
+    @Binding var selectedModel: ChatModel
+    @State private var isExpanded = false
+    private let controlHeight: CGFloat = 40
+
+    var body: some View {
+        ZStack(alignment: .bottomTrailing) {
+            if isExpanded {
+                VStack(alignment: .trailing, spacing: 6) {
+                    ForEach(ChatModel.allCases) { model in
+                        Button {
+                            selectedModel = model
+                            withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
+                                isExpanded = false
+                            }
+                        } label: {
+                            Text(model.rawValue)
+                                .font(.system(size: 13, weight: .medium, design: .rounded))
+                                .foregroundStyle(model == selectedModel ? AppTheme.accentTeal : AppTheme.textSecondary)
+                                .padding(.horizontal, 14)
+                                .padding(.vertical, 8)
+                                .background(
+                                    Capsule()
+                                        .fill(AppTheme.panelBackground.opacity(model == selectedModel ? 0.9 : 0.5))
+                                        .overlay(
+                                            Capsule()
+                                                .stroke(AppTheme.border.opacity(model == selectedModel ? 1.0 : 0.7), lineWidth: 1)
+                                        )
+                                )
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .offset(y: -(controlHeight + 8))
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+
+            Button {
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
+                    isExpanded.toggle()
+                }
+            } label: {
+                HStack(spacing: 8) {
+                    Image(systemName: "dial.low.fill")
+                        .font(.system(size: 14, weight: .semibold))
+                    Text(selectedModel.rawValue)
+                        .font(.system(size: 14, weight: .semibold, design: .rounded))
+                }
+                .foregroundStyle(AppTheme.textPrimary)
+                .padding(.horizontal, 16)
+                .padding(.vertical, 10)
+                .frame(height: controlHeight)
+                .background(
+                    Capsule()
+                        .fill(AppTheme.panelBackground)
+                        .overlay(
+                            Capsule()
+                                .stroke(AppTheme.border, lineWidth: 1)
+                        )
+                        .shadow(color: AppTheme.panelBackground.opacity(0.45), radius: 22, x: 0, y: 18)
+                )
+            }
+            .buttonStyle(.plain)
+        }
+        .zIndex(isExpanded ? 1 : 0)
+    }
+}
+
+private struct RegenerateButton: View {
+    var action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            HStack(spacing: 8) {
+                Image(systemName: "sparkles")
+                    .font(.system(size: 14, weight: .semibold))
+                Text("Regenerate")
+                    .font(.system(size: 14, weight: .semibold, design: .rounded))
+            }
+            .foregroundStyle(AppTheme.textPrimary)
+            .padding(.horizontal, 18)
+            .padding(.vertical, 10)
+            .background(
+                Capsule()
+                    .fill(AppTheme.panelBackground)
+                    .overlay(
+                        Capsule()
+                            .stroke(AppTheme.border, lineWidth: 1)
+                    )
+                    .shadow(color: AppTheme.panelBackground.opacity(0.35), radius: 22, x: 0, y: 18)
+            )
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+private struct InputBarView: View {
+    @Binding var messageText: String
+    var isSendDisabled: Bool
+    var sendMessage: () -> Void
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: "mic.fill")
+                .font(.system(size: 16, weight: .medium))
+                .foregroundStyle(AppTheme.textSecondary)
+
+            TextField("Send a message", text: $messageText, axis: .vertical)
+                .textFieldStyle(PlainTextFieldStyle())
+                .foregroundStyle(AppTheme.textPrimary)
+                .lineLimit(1...4)
+                .tint(AppTheme.accentTeal)
+                .onSubmit(sendMessage)
+
+            Button(action: sendMessage) {
+                Image(systemName: "paperplane.fill")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(AppTheme.accentPrimary)
+            }
+            .keyboardShortcut(.return, modifiers: [])
+            .disabled(isSendDisabled)
+            .opacity(isSendDisabled ? 0.4 : 1.0)
+            .buttonStyle(.plain)
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 10)
+        .background(
+            Capsule()
+                .fill(AppTheme.panelBackground)
+                .overlay(
+                    Capsule()
+                        .stroke(AppTheme.border, lineWidth: 1)
+                )
+                .shadow(color: AppTheme.panelBackground.opacity(0.35), radius: 26, x: 0, y: 20)
+        )
+        .frame(maxWidth: .infinity, alignment: .trailing)
+        .padding(.horizontal)
+        .padding(.bottom, 12)
     }
 }

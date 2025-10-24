@@ -2,13 +2,6 @@
   "": {
     "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/master.swiftdeps"
   },
-  "/Users/DutDev/Code/WeWillDoItLive/AppTheme.swift": {
-    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.d",
-    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o",
-    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme~partial.swiftmodule",
-    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swiftdeps",
-    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.dia"
-  },
   "/Users/DutDev/Code/WeWillDoItLive/CodeEditorView.swift": {
     "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.d",
     "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/CodeEditorView.swift.o",
@@ -92,6 +85,13 @@
     "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView~partial.swiftmodule",
     "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.swiftdeps",
     "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SettingsPanelView.dia"
+  },
+  "/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift": {
+    "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.d",
+    "object": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.swiftdeps",
+    "diagnostics": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/AppTheme.dia"
   },
   "/Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift": {
     "dependencies": "/Users/DutDev/Code/WeWillDoItLive/.build/arm64-apple-macosx/debug/WeWillDoItLive.build/SpecDeckRepository.d",

@@ -1,4 +1,3 @@
-/Users/DutDev/Code/WeWillDoItLive/AppTheme.swift
 /Users/DutDev/Code/WeWillDoItLive/CodeEditorView.swift
 /Users/DutDev/Code/WeWillDoItLive/FileLoader.swift
 /Users/DutDev/Code/WeWillDoItLive/GitManager.swift
@@ -11,6 +10,7 @@
 /Users/DutDev/Code/WeWillDoItLive/RecentProjectsManager.swift
 /Users/DutDev/Code/WeWillDoItLive/SessionManager.swift
 /Users/DutDev/Code/WeWillDoItLive/SettingsPanelView.swift
+/Users/DutDev/Code/WeWillDoItLive/Sources/WeWillDoItLive/Views/AppTheme.swift
 /Users/DutDev/Code/WeWillDoItLive/SpecDeckRepository.swift
 /Users/DutDev/Code/WeWillDoItLive/SpecDeckViewModel.swift
 /Users/DutDev/Code/WeWillDoItLive/SpecLoader.swift
